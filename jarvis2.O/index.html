@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR11 JARVIS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="setupScreen" class="card">
+
+    <h1>AR11 JARVIS </h1>
+    <input id="name" placeholder="Your Name">
+    <input id="nickname" placeholder="Nickname">
+    <select id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <select id="language">
+      <option value="en-US">English</option>
+      <option value="ur-PK">Urdu</option>
+    </select>
+    <button id="saveProfile">Start Jarvis</button>
+  </div>
+
+  <div id="app" class="hidden">
+    <header>
+      <h1>Welcome To AR11 JARVIS</h1>
+
+      <button id="themeBtn">Toggle Theme</button>
+    </header>
+
+
+    <div id="profile"></div>
+
+
+    <div class="circle">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="AI">
+    </div>
+
+    <p id="status">Ready</p>
+    <button id="micBtn">🎤 Speak</button>
+
+    <div id="history"></div>
+    <div id="commands">
+      <h2>Search For:</h2>
+      <ul>
+        <li>Open Youtube</li>
+        <li>Open Google</li>
+        <li>Open Gpt</li>
+        <li>Open Grok</li>
+        <li>Open Github</li>
+        <li>Open Facebook</li>
+        <li>Open Instagram</li>
+        <li>Open Canva</li>
+        <li>What is your name?</li>
+        <li>What can you do?</li>
+        <li>Who made you?</li>
+        <li>Time</li>
+        <li>Goodbye</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
